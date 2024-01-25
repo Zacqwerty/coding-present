@@ -399,19 +399,19 @@ function init() {
 
 //Setup
 function setup() {
-    awaitImage('img/sunflower.png').then(value => {
+    awaitImage('./coding-present/img/sunflower.png').then(value => {
         if (value?.loaded) {
             sunflower = value;
         }
     })
 
-    awaitImage('img/sunoutline.png').then(value => {
+    awaitImage('./coding-present/img/sunoutline.png').then(value => {
         if (value?.loaded) {
             sunOutline = value;
         }
     })
 
-    awaitImage('img/sunflower3.png').then(value => {
+    awaitImage('./coding-present/img/sunflower3.png').then(value => {
         if (value?.loaded) {
             midSunflower = value;
         }
