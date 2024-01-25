@@ -399,6 +399,8 @@ function init() {
 
 //Setup
 function setup() {
+    audio.volume = 0.3;
+
     awaitImage('./img/sunflower.png').then(value => {
         if (value?.loaded) {
             sunflower = value;
@@ -468,7 +470,6 @@ function callBackSetup() {
         messageGradientBox.addColorStop(1, 'rgb(91, 33, 11, 0.75)');
 
         //Play Audio
-        audio.volume = 0.5;
         audio.play();
 
         ctx.globalAlpha = 0;
@@ -492,7 +493,7 @@ function update() {
     rotateAngle = rotateAngle % 360;
 
     if (isTweening && tweenNum < 1) {
-        tweenNum += 0.00167;
+        tweenNum += 0.0167;
         tweenNum = clamp(tweenNum, 0, 1);
         scaleNum = easeInOutBounce(tweenNum);
 
