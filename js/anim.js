@@ -47,7 +47,7 @@ var imgScale = 0;
 var deltaSize = 0;
 var scaleNum = 0;
 
-var rotRate = 0.002;
+var rotRate = 0.02;
 var rotateAngle = 0;
 
 var tweenNum = 0;
@@ -81,7 +81,7 @@ var currentText = "";
 var messageBarSideColor;
 var messageGradientBox;
 
-var letterTick = 0.2;
+var letterTick = 0.02;
 var tickTimer = 0;
 var curCount = -1;
 

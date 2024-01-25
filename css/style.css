@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'VT323';
-    src: url("./fonts/VT323-Regular.ttf");
+    src: url("/fonts/VT323-Regular.ttf");
 }
 
 @font-face {
     font-family: 'Kong';
-    src: url("./fonts/kongtext.ttf");
+    src: url("/fonts/kongtext.ttf");
 }
 
 @font-face {
     font-family: 'PixelFont7';
-    src: url("./fonts/PixelFont7.ttf");
+    src: url("/fonts/PixelFont7.ttf");
 }
 
 body {
