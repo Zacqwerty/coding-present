@@ -99,7 +99,7 @@ var imgScale = 0;
 var deltaSize = 0;
 var scaleNum = 0;
 
-var rotRate = 0.02;
+var rotRate = 0.007;
 var rotateAngle = 0;
 
 var tweenNum = 0;
@@ -684,7 +684,7 @@ function sunflowersForHer() {
         let fSize = Math.min(canvas.width, canvas.height)/32;
 
         ctx.fillStyle = flowerColor;
-        ctx.font = "bold " + fSize + "px Calibri";
+        ctx.font = "bold " + fSize + "px Sunflower";
         drawTextOnArc('CLICK ME ALY', 0, 0, (winScale * 0.08), 0, true, 1);
         drawTextOnArc('CLICK ME ALY', 0, 0, (winScale * 0.08), 135, true, 1);
 
@@ -826,6 +826,7 @@ onmousedown = () => {
         }
     }
 }
+
 
 //Start function
 init();
