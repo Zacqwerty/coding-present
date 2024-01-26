@@ -1,3 +1,55 @@
+/*
+                                              ▓▓                                          
+                                            ▓▓▓▓▓▓                                        
+                                        ▓▓▓▓░░░░▓▓                                        
+    ▓▓▓▓▓▓▓▓▓▓                        ▓▓░░  ░░▓▓░░▓▓▓▓                        ▓▓▓▓▓▓      
+      ▓▓░░▓▓░░▓▓▓▓▓▓▓▓▓▓▓▓            ▓▓▓▓      ▓▓░░░░▓▓            ▓▓▓▓▓▓▓▓▓▓▓▓▓▓        
+        ▓▓░░░░░░░░▓▓▓▓░░░░▓▓▓▓░░░░  ▓▓▓▓▓▓  ░░░░  ▓▓▒▒  ░░    ▓▓▓▓▓▓▓▓▒▒▒▒▓▓▒▒▓▓▓▓        
+        ▒▒▒▒░░▒▒░░▒▒▒▒░░▒▒▒▒▒▒      ░░▒▒░░        ▒▒░░      ▒▒▒▒▒▒▒▒▒▒░░░░▒▒▒▒▒▒▒▒        
+          ▒▒░░▒▒▒▒░░░░░░▒▒▒▒▒▒        ░░          ▒▒        ▒▒▒▒░░░░▒▒░░▒▒▒▒▒▒░░▓▓        
+          ▓▓░░░░▓▓▓▓        ▓▓░░            ░░              ░░░░░░░░▓▓░░▓▓░░░░░░▓▓        
+          ▓▓▒▒░░░░▓▓▓▓          ░░    ░░    ░░░░            ░░        ▒▒▓▓▓▓░░▓▓          
+          ▓▓▒▒▒▒▒▒▒▒▓▓░░  ░░░░  ░░░░░░░░░░░░░░░░    ░░░░░░░░░░░░░░▒▒▒▒▓▓▒▒▒▒░░▓▓          
+          ▒▒░░▒▒▒▒▒▒▒▒▒▒▒▒      ░░░░░░░░░░░░░░░░  ░░░░░░░░░░      ░░░░░░░░░░▒▒▒▒          
+          ▒▒░░░░░░░░░░░░▒▒  ░░    ░░░░░░░░▓▓░░▓▓  ░░░░░░░░            ░░░░░░▒▒░░          
+          ░░▒▒░░        ░░░░░░░░░░  ░░░░▓▓▓▓▓▓▓▓▓▓░░░░░░░░          ▒▒▒▒░░▒▒░░            
+            ░░▒▒░░░░    ░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓██▓▓▓▓░░        ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒        
+                ▓▓░░░░          ██▓▓██████▓▓▓▓▓▓████▓▓████      ░░░░░░░░  ░░░░▓▓▓▓        
+                ░░    ░░░░░░░░██▓▓████▓▓▓▓▓▓▓▓▓▓▓▓████▓▓████░░░░░░    ░░░░  ░░░░▓▓▓▓▓▓    
+                            ░░▓▓████▓▓██████████▓▓▓▓████▓▓░░              ▓▓░░▒▒░░▓▓▓▓▓▓▓▓
+                              ░░████▓▓████████████▓▓▓▓██▓▓                    ▓▓▓▓░░▓▓▓▓  
+                    ░░░░░░░░▓▓▓▓▓▓▒▒████████▓▓██▓▓▒▒▒▒▓▓▓▓░░░░░░░░        ░░▒▒▒▒▒▒▒▒▒▒░░  
+        ▒▒░░░░░░░░░░░░░░░░░░▒▒██▓▓▓▓▓▓▓▓██████████▓▓▓▓████░░░░░░░░░░░░░░░░▒▒▓▓▒▒▒▒▓▓░░    
+      ▒▒░░░░░░  ░░░░  ░░  ░░░░▓▓▒▒▒▒▓▓██████████▓▓▒▒▓▓▓▓▓▓        ░░  ░░  ░░░░░░▒▒▒▒      
+    ▓▓░░                      ██▓▓██▓▓██████████▓▓██▓▓▓▓████░░░░░░      ▓▓▓▓░░▓▓▓▓        
+    ▓▓      ▓▓                ████▓▓██████████▓▓██▓▓▓▓▓▓██    ░░  ░░▓▓▓▓▓▓▓▓▓▓            
+  ▒▒░░▒▒▒▒░░▒▒▒▒▒▒            ░░██▒▒▒▒▓▓▓▓▒▒▓▓▓▓▒▒▓▓▒▒▓▓░░        ░░  ░░▒▒                
+▓▓▓▓▓▓░░░░▓▓░░                ████████▓▓██▓▓██▓▓██▓▓██████          ░░                    
+    ▓▓▓▓░░░░              ░░░░░░████▓▓▓▓▓▓▓▓▓▓▓▓▓▓████  ░░░░░░░░                          
+        ▓▓▓▓            ░░░░      ████████▓▓██▓▓██  ░░░░    ░░      ▓▓                    
+                  ░░░░░░░░      ░░░░░░░░░░      ░░      ░░    ░░░░░░▒▒▒▒                  
+            ▓▓░░░░▓▓░░          ░░        ░░    ░░░░      ░░          ▓▓▓▓                
+          ▓▓░░░░▓▓░░          ░░          ░░░░      ░░      ▓▓░░        ▓▓▓▓              
+          ▓▓░░▓▓░░              ░░          ░░      ░░      ▓▓░░▓▓░░░░░░░░▓▓              
+        ▓▓▓▓░░▓▓▓▓                                    ░░      ▓▓▓▓░░░░░░░░▓▓              
+        ▓▓░░▓▓░░▓▓        ▓▓                          ░░        ▓▓▓▓░░▓▓░░░░▓▓            
+        ▓▓░░░░▓▓▓▓    ▓▓▓▓▓▓                            ░░      ░░▓▓▓▓▓▓▓▓░░▓▓            
+        ▓▓░░▓▓▓▓▓▓▓▓▓▓▓▓░░▓▓    ▓▓              ░░      ▓▓░░░░▓▓▓▓░░░░░░░░▓▓▓▓            
+        ▓▓▓▓░░▓▓░░░░▓▓▓▓▓▓░░  ▓▓▓▓    ▓▓      ▓▓▒▒▓▓▓▓  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░▓▓▓▓            
+        ░░▒▒░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒  ▒▒▒▒░░  ▒▒▒▒░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░▒▒░░            
+        ▒▒▒▒░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░▒▒░░▒▒▒▒▒▒  ▒▒▒▒░░░░░░▒▒░░▒▒░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒              
+        ▓▓░░▒▒▒▒▓▓▓▓▓▓▒▒░░░░▒▒▓▓░░░░▓▓▓▓      ▓▓▓▓░░░░░░▓▓░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓              
+      ▓▓▓▓▓▓          ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓          ▓▓▓▓▓▓▓▓▓▓░░▒▒░░░░▓▓░░▓▓░░▓▓              
+      ▒▒░░░░          ░░░░  ░░  ░░░░░░          ░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░▒▒░░▒▒░░▒▒▒▒            
+      ░░                                          ░░    ░░▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░▒▒            
+                                                                ▓▓▓▓▓▓▓▓▓▓▓▓▓▓            
+                                                                          ▓▓▓▓▓▓          
+--------------------------------------------------------------------------------------
+                        YOU ARE THE SUNSHINE TO MY WORLD
+--------------------------------------------------------------------------------------
+*/
+
+
 //Canvas
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
@@ -68,13 +120,23 @@ var hatching = {
 }
 var spacingX = canvas.width / (numFocalPoints + 1);
 var spacingY = canvas.height / (numFocalPoints + 1);
+
+var copyHatch = {
+    x: 0,
+    y: 0,
+    width: 100,
+    height: 100,
+    scale: 0,
+    imageData: null
+}
+
 var focalArray = [];
 //#endregion
 
 //#region Message
 
 var fontSize = '20px';
-var fontFamily = 'PixelFont7'
+var fontFamily = 'Pixelify Sans'
 var message = "This is a testing message only made for testing and testing only";
 var currentText = "";
 
@@ -84,6 +146,15 @@ var messageGradientBox;
 var letterTick = 0.02;
 var tickTimer = 0;
 var curCount = -1;
+
+var refImage;
+var refDet = {
+    x: 0,
+    y: 0,
+    width: 100,
+    height: 100,
+    scale: 0
+}
 
 //#endregion
 
@@ -399,7 +470,7 @@ function init() {
 
 //Setup
 function setup() {
-    audio.volume = 0.3;
+    audio.volume = 0.5;
 
     awaitImage('./img/sunflower.png').then(value => {
         if (value?.loaded) {
@@ -424,12 +495,12 @@ function setup() {
             imgMessage = value;
 
             //Init phase 2 variables
-            imgScale = percentageDiff(imgMessage.image.width, imgMessage.image.height, paint.width * 0.95, paint.height * 0.95);
+            refDet.scale = imgScale = percentageDiff(imgMessage.image.width, imgMessage.image.height, paint.width * 0.95, paint.height * 0.95);
 
-            hatching.x = (paint.width / 2) - ((imgMessage.image.width * imgScale) / 2);
-            hatching.y = (paint.height / 2) - ((imgMessage.image.height * imgScale) / 2);
-            hatching.width = Math.floor((imgMessage.image.width * imgScale));
-            hatching.height = Math.floor((imgMessage.image.height * imgScale));
+            refDet.x = hatching.x = (paint.width / 2) - ((imgMessage.image.width * imgScale) / 2);
+            refDet.y = hatching.y = (paint.height / 2) - ((imgMessage.image.height * imgScale) / 2);
+            refDet.width = hatching.width = Math.floor((imgMessage.image.width * imgScale));
+            refDet.height = hatching.height = Math.floor((imgMessage.image.height * imgScale));
             hatching.scale = imgScale;
 
             spacingX = hatching.width / (numFocalPoints + 1);
@@ -444,6 +515,23 @@ function setup() {
         }
     })
 
+    //Preload first image
+    awaitImage(sun.flower[0].image).then(value => {
+        copyHatch.scale = percentageDiff(value.image.width, value.image.height, paint.width * 0.95, paint.height * 0.95);
+
+        copyHatch.x = (paint.width / 2) - ((value.image.width * imgScale) / 2);
+        copyHatch.y = (paint.height / 2) - ((value.image.height * imgScale) / 2);
+        copyHatch.width = Math.floor((value.image.width * imgScale));
+        copyHatch.height = Math.floor((value.image.height * imgScale));
+        copyHatch.scale = imgScale;
+
+        spacingX = copyHatch.width / (numFocalPoints + 1);
+        spacingY = copyHatch.height / (numFocalPoints + 1);
+
+        copyHatch.imageData = getImageData(value.image, copyHatch.width, copyHatch.height);
+    })
+
+
     textFill.style.fontSize = `${Math.min(canvas.width, canvas.height)/56}px`;
     textFill.style.letterSpacing = `${Math.min(canvas.width, canvas.height)/56}px`;
 }
@@ -455,6 +543,8 @@ function callBackSetup() {
 
         phase = 1;
         tweenNum = 0;
+
+        EventManager.instance.emit('next-line');
 
         ctx.lineWidth = 0.8;
         ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -478,8 +568,27 @@ function callBackSetup() {
 
     EventManager.instance.make('next-line', () => {
         petalCount++;
-        message = sun.flower[Math.min(sun.flower.length - 1, petalCount)];
-        curCount = -1;
+        
+        hatching = copyHatch;
+
+        awaitImage(sun.flower[Math.min(sun.flower.length - 1, petalCount)].image).then(value => {
+            copyHatch.scale = percentageDiff(value.image.width, value.image.height, paint.width * 0.95, paint.height * 0.95);
+
+            copyHatch.x = (paint.width / 2) - ((value.image.width * copyHatch.scale) / 2);
+            copyHatch.y = (paint.height / 2) - ((value.image.height * copyHatch.scale) / 2);
+            copyHatch.width = Math.floor((value.image.width * copyHatch.scale));
+            copyHatch.height = Math.floor((value.image.height * copyHatch.scale));
+
+            spacingX = copyHatch.width / (numFocalPoints + 1);
+            spacingY = copyHatch.height / (numFocalPoints + 1);
+
+            copyHatch.imageData = getImageData(value.image, copyHatch.width, copyHatch.height);
+            weavesCount = 0;
+            message = sun.flower[Math.min(sun.flower.length - 1, petalCount)].message[weavesCount];
+            curCount = -1;
+
+            ptx.clearRect(0, 0, canvas.width, canvas.height);
+        })
     }, true);
 }
 
@@ -613,7 +722,7 @@ function messageToHer() {
         if (toggleHatch) {
             ptx.save();
 
-            ptx.lineWidth = 0.8;
+            ptx.lineWidth = Math.PI;
 
             ptx.translate(hatching.x, hatching.y);
 
@@ -641,14 +750,14 @@ function messageToHer() {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
 
             //Box drawing
-            let nWidth = hatching.width * 0.9;
-            let nHeight = (hatching.width * 0.9) / 3;
-            let offset = hatching.width - nWidth;
+            let mWidth = refDet.width * 0.9;
+            let mHeight = (refDet.width * 0.9) / 3;
+            let offset = refDet.width - mWidth;
 
             ctx.save();
             ctx.fillStyle = messageGradientBox;
             ctx.beginPath();
-            roundRect(hatching.x + offset / 2, canvas.height - nHeight - (offset / 4), nWidth, nHeight, 15);
+            roundRect(refDet.x + offset / 2, canvas.height - mHeight - (offset / 4), mWidth, mHeight, 15);
             ctx.fill();
 
             ctx.restore();
@@ -661,7 +770,7 @@ function messageToHer() {
             ctx.strokeStyle = 'rgba(255,221,0,1)';
             ctx.lineWidth = 5;
             ctx.beginPath();
-            roundRect(hatching.x + offset / 2, canvas.height - nHeight - (offset / 4), nWidth, nHeight, 15);
+            roundRect(refDet.x + offset / 2, canvas.height - mHeight - (offset / 4), mWidth, mHeight, 15);
             ctx.stroke();
 
             ctx.restore();
@@ -669,9 +778,9 @@ function messageToHer() {
             //Text stuff here
 
             if (curCount >= 0) {
-                let lines  = fragmentText(currentText, nWidth * 0.9);
+                let lines  = fragmentText(currentText, mWidth * 0.9);
 
-                fontSize = `${nWidth/32}px`;
+                fontSize = `${mWidth/32}px`;
                 ctx.font = fontSize + ' ' + fontFamily;
 
                 ctx.lineWidth = Math.PI;
@@ -679,8 +788,8 @@ function messageToHer() {
                 ctx.fillStyle = 'white';
                 
                 lines.forEach((l, i) => {
-                    ctx.strokeText(l, hatching.x + (nWidth * 0.1), canvas.height - nHeight + (i * parseInt(fontSize, 0)) + (parseInt(fontSize, 0)))
-                    ctx.fillText(l, hatching.x + (nWidth * 0.1), canvas.height - nHeight + (i * parseInt(fontSize, 0)) + (parseInt(fontSize, 0)))
+                    ctx.strokeText(l, refDet.x + (mWidth * 0.1), canvas.height - mHeight + (i * parseInt(fontSize, 0)) + (parseInt(fontSize, 0)))
+                    ctx.fillText(l, refDet.x + (mWidth * 0.1), canvas.height - mHeight + (i * parseInt(fontSize, 0)) + (parseInt(fontSize, 0)))
                 });
                     
             }
@@ -704,8 +813,17 @@ function messageToHer() {
 onmousedown = () => {
     isTweening = true;
 
-    if (phase == 1 && curCount >= message.length && petalCount < sun.flower.length - 1) {
-        EventManager.instance.emit('next-line');
+    if (phase == 1 && curCount >= message.length) {
+
+        if (petalCount < sun.flower.length - 1 && weavesCount + 1 >= sun.flower[petalCount].message.length) {
+            EventManager.instance.emit('next-line');
+        }
+
+        if (weavesCount < sun.flower[petalCount].message.length - 1) {
+            weavesCount++;
+            message = sun.flower[petalCount].message[weavesCount];
+            curCount = -1;
+        }
     }
 }
 
