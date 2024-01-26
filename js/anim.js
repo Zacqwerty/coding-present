@@ -99,7 +99,7 @@ var imgScale = 0;
 var deltaSize = 0;
 var scaleNum = 0;
 
-var rotRate = 0.007;
+var rotRate = 0.002;
 var rotateAngle = 0;
 
 var tweenNum = 0;
@@ -602,7 +602,7 @@ function update() {
     rotateAngle = rotateAngle % 360;
 
     if (isTweening && tweenNum < 1) {
-        tweenNum += 0.0167;
+        tweenNum += 0.00167;
         tweenNum = clamp(tweenNum, 0, 1);
         scaleNum = easeInOutBounce(tweenNum);
 
@@ -810,7 +810,15 @@ function messageToHer() {
 }
 
 //Events
-onmousedown = () => {
+document.body.addEventListener('pointerdown', (event) => {
+    if (event.pointerType === "mouse") {
+      console.log("Mouse");
+    } else if (event.pointerType === "touch") {
+        console.log("Touch");
+    } else if (event.pointerType === "pen") {
+        console.log("Pen");
+    }
+
     isTweening = true;
 
     if (phase == 1 && curCount >= message.length) {
@@ -825,7 +833,7 @@ onmousedown = () => {
             curCount = -1;
         }
     }
-}
+});
 
 
 //Start function

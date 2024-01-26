@@ -28,8 +28,7 @@ var sun = {
         {
             image: './img/setc.jpg',
             message : [
-                'To be honest, the first time I met you...',
-                'You reminded me of sunflowers...',
+                'To be honest, the first time I met you... You reminded me of sunflowers...',
                 'I saw you as someone so happy and positive shining like a  bright sun. And someone so much set to a goal just like the Sunflowers always looking forward to the Sun.'
             ]
         },
