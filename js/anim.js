@@ -75,7 +75,6 @@ const numFocalPoints = 1000;
 const circlHatchMin = 350;
 
 //System Var
-var isTouchDevice;
 var lastDeltaTimeStamp = Date.now();
 var startTimeStamp = Date.now();
 var deltaTime = 0;
@@ -829,21 +828,16 @@ function startClick() {
     }
 }
 
-if (isTouchDevice) {
-    document.body.addEventListener('touchstart', function (event) {
-        event.preventDefault();
-        startClick();
-    });
-} else {
-    document.body.addEventListener('click', function () {
-        startClick();
-    });
+ontouchstart = (event) => {
+    event.preventDefault();
+    console.log("Touch");
+    startClick();
 }
 
-document.addEventListener('DOMContentLoaded', function () {
-    isTouchDevice = 'ontouchstart' in document.documentElement;
-});
-
+onclick = (event) => {
+    console.log("Mouse");
+    startClick();
+}
 
 //Start function
 init();
