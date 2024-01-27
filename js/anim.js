@@ -75,6 +75,7 @@ const numFocalPoints = 1000;
 const circlHatchMin = 350;
 
 //System Var
+var isTouchDevice;
 var lastDeltaTimeStamp = Date.now();
 var startTimeStamp = Date.now();
 var deltaTime = 0;
@@ -157,6 +158,7 @@ var refDet = {
 }
 
 //#endregion
+
 
 //Functions
 const clamp = (num, min, max) => Math.min(Math.max(num, min), max);
@@ -532,8 +534,8 @@ function setup() {
     })
 
 
-    textFill.style.fontSize = `${Math.min(canvas.width, canvas.height)/56}px`;
-    textFill.style.letterSpacing = `${Math.min(canvas.width, canvas.height)/56}px`;
+    textFill.style.fontSize = `${Math.min(canvas.width, canvas.height) / 56}px`;
+    textFill.style.letterSpacing = `${Math.min(canvas.width, canvas.height) / 56}px`;
 }
 
 function callBackSetup() {
@@ -568,7 +570,7 @@ function callBackSetup() {
 
     EventManager.instance.make('next-line', () => {
         petalCount++;
-        
+
         hatching = copyHatch;
 
         awaitImage(sun.flower[Math.min(sun.flower.length - 1, petalCount)].image).then(value => {
@@ -681,7 +683,7 @@ function sunflowersForHer() {
         ctx.rotate(rotateAngle / 2);
 
         //Set Font settings
-        let fSize = Math.min(canvas.width, canvas.height)/32;
+        let fSize = Math.min(canvas.width, canvas.height) / 32;
 
         ctx.fillStyle = flowerColor;
         ctx.font = "bold " + fSize + "px Sunflower";
@@ -744,7 +746,7 @@ function messageToHer() {
 
         if (curHatchSize > 5000) {
             if (ctx.globalAlpha < 1) {
-                ctx.globalAlpha = clamp(ctx.globalAlpha + (deltaTime/3), 0, 1);
+                ctx.globalAlpha = clamp(ctx.globalAlpha + (deltaTime / 3), 0, 1);
             }
 
             ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -778,20 +780,20 @@ function messageToHer() {
             //Text stuff here
 
             if (curCount >= 0) {
-                let lines  = fragmentText(currentText, mWidth * 0.9);
+                let lines = fragmentText(currentText, mWidth * 0.9);
 
-                fontSize = `${mWidth/32}px`;
+                fontSize = `${mWidth / 32}px`;
                 ctx.font = fontSize + ' ' + fontFamily;
 
                 ctx.lineWidth = Math.PI;
                 ctx.strokeStyle = 'black';
                 ctx.fillStyle = 'white';
-                
+
                 lines.forEach((l, i) => {
                     ctx.strokeText(l, refDet.x + (mWidth * 0.1), canvas.height - mHeight + (i * parseInt(fontSize, 0)) + (parseInt(fontSize, 0)))
                     ctx.fillText(l, refDet.x + (mWidth * 0.1), canvas.height - mHeight + (i * parseInt(fontSize, 0)) + (parseInt(fontSize, 0)))
                 });
-                    
+
             }
 
             //Do the thing;
@@ -810,15 +812,7 @@ function messageToHer() {
 }
 
 //Events
-document.body.addEventListener('pointerdown', (event) => {
-    if (event.pointerType === "mouse") {
-      console.log("Mouse");
-    } else if (event.pointerType === "touch") {
-        console.log("Touch");
-    } else if (event.pointerType === "pen") {
-        console.log("Pen");
-    }
-
+function startClick() {
     isTweening = true;
 
     if (phase == 1 && curCount >= message.length) {
@@ -833,6 +827,21 @@ document.body.addEventListener('pointerdown', (event) => {
             curCount = -1;
         }
     }
+}
+
+if (isTouchDevice) {
+    document.body.addEventListener('touchstart', function (event) {
+        event.preventDefault();
+        startClick();
+    });
+} else {
+    document.body.addEventListener('click', function () {
+        startClick();
+    });
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    isTouchDevice = 'ontouchstart' in document.documentElement;
 });
 
 
