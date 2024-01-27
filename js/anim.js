@@ -829,9 +829,9 @@ function startClick() {
 }
 
 ontouchstart = (event) => {
-    event.preventDefault();
-    console.log("Touch");
-    startClick();
+    //event.preventDefault();
+    //console.log("Touch");
+    //startClick();
 }
 
 onclick = (event) => {
